@@ -1,0 +1,15 @@
+﻿@* Remove this section if you are using bundling *@
+@section Scripts {
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+
+@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Delete Users";
+
+    var db = Database.Open("StarterSite");
+    db.Execute("DELETE from UserProfile");
+}
+
+Users deleted!

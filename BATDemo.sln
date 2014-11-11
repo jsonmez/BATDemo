@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BATDemo", "http://localhost:12142", "{03E10242-0411-47C8-94B4-30780AD92A4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12142"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\SimpleProgrammer\Projects\BATDemo\BATDemo"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12142\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12142"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\SimpleProgrammer\Projects\BATDemo\BATDemo"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12142\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "BATDemo\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATDemoFramework", "BATDemoFramework\BATDemoFramework.csproj", "{EC0672CE-6137-47E8-9104-2971B5FD174C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BATDemoTests", "BATDemoTests\BATDemoTests.csproj", "{EF30439C-2141-4E70-92BB-D72D7CE7CD6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E10242-0411-47C8-94B4-30780AD92A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E10242-0411-47C8-94B4-30780AD92A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E10242-0411-47C8-94B4-30780AD92A4E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E10242-0411-47C8-94B4-30780AD92A4E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EC0672CE-6137-47E8-9104-2971B5FD174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0672CE-6137-47E8-9104-2971B5FD174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0672CE-6137-47E8-9104-2971B5FD174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0672CE-6137-47E8-9104-2971B5FD174C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF30439C-2141-4E70-92BB-D72D7CE7CD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF30439C-2141-4E70-92BB-D72D7CE7CD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF30439C-2141-4E70-92BB-D72D7CE7CD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF30439C-2141-4E70-92BB-D72D7CE7CD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
